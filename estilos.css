@@ -16,7 +16,7 @@
     }
 
     h4 {
-      color: grey;
+      color: grey;      
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .titulo{
@@ -27,18 +27,25 @@
     }
     .subtitulo{
       text-shadow: rgb(128, 128, 128);
-      padding: 15px 35px;
+      padding: 25px 25px 0px 25px;
       color: blue;
       font-size: large;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background: rgb(244, 121, 32);      
     }
-    .cuerpo{
+    .subtitulodos{
+      padding: 25px 0px 0px 0px;
+      color: blue;
+      font-size: large;
+      font-style: normal;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
+    }
+    .cuerpo{      
       padding: 25px 0px 0px 0px;
       color: rgb(51, 51, 51);
       font-size: large;
       font-style: normal;
-      font-family: 'Courier New', Courier, monospace;      
+      font-family: Arial, Helvetica, sans-serif;      
     }
     .pie{      
       color: black;
@@ -74,4 +81,11 @@
       border: rgb(240, 180, 41) 8px groove;
       background: rgb(179, 179 , 179);
     }
+    iframe{
+      width: 70%; 
+      height: 80vh; 
+    }
+
+    .sombra {
+    box-shadow: 2px 3px 5px 1px rgba(0,0,0,0.50);
 
